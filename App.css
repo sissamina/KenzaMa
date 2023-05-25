@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+}
+.main-container{
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(231, 231, 213);
+    opacity: 1;
+     
+    
+    }
+main{
+    padding: 20;
+}
+.title{
+    font-size: 30px;
+}    
+.sidebar {  
+   /* background: rgb(253, 253, 55);*/
+   background: rgb(204, 200, 200);
+    /*color: rgb(25, 8, 102);*/
+    color: rgb(19, 19, 131);
+    height: 100vh;
+}
+.routes{
+    color: white;
+}
+.top_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+}
+.logo{
+ font-size: 18px;
+ line-height: 0;
+}
+.search{
+ display: flex;
+ align-items: center;
+ margin: 10px 0;
+ height: 30px;
+ padding: 10px;
+}
+.search input {
+    border: none;
+    width: 150px;
+     margin-left: 10px;
+     border-radius: 5px;
+     background: white;
+     padding: 3px 6px;
+     color: rgb(27, 8, 53);
+}
+.Link{
+    display: flex;
+    /*color: rgb(9, 9, 66);*/
+    color: rgb(46, 20, 141);
+    gap: 10px;
+    padding: 5px 10px;
+    border-right: 4px solid transparent;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735,0.045);
+}
+.icon{
+    border-style: groove;
+ background-color: blue;
+}
+.Link:hover{
+    border-right: 4px solid transparent;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735,0.045);
+ /*   background: rgb(45,51 ,89);*/
+ background: transparent;
+}
+.active{
+    border-right: 4px solid rgb(97, 95, 100);
+   
+   background: rgb(141, 141, 143);
+ 
+  
+}
+ 
+.Link_text {
+    white-space: nowrap;
+    font-size: 18px;
+}
+.menu{
+    text-align: left;
+    display: block;
+    cursor: pointer;
+    margin: blue;
+    background-color: white;
+    
+}
+.bi-chevron-down.toggle-btn{
+    padding-top: .25em;
+    transform: rotate(180deg);
+    cursor: pointer;
+
+}
